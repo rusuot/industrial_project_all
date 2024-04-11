@@ -8,7 +8,7 @@ The purpose for this project is Industrial Consulting Project (QHO635) - Solent 
 
 
 ###### Please check collections names:
-I think for Manual Import in code I've put: \
+I think for "Manual Import", in code I've put: \
 const productRef = doc(db, 'Testing', JSON.parse(Manualimport).id); \
 And we need "products", but I've done so only for testing, please ask if something is not clear. 
 
