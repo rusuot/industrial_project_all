@@ -58,18 +58,18 @@ Fetch calls this fakeapi, and read the data from there.
 ### Observations:
 The DOC for Industrail project says next:
 Essential Functionalities:
-1. Bulk Import: Enable users to import products in bulk from Amazon and eBay using specified filters.
+###### 1. Bulk Import: Enable users to import products in bulk from Amazon and eBay using specified filters.
 ---> This works with 1 product for manual import.
    I have added a button "Manual Import", in which you can insert a JSON file contaning details for one product. This will save the data in DB.
    However, when the list of products electronis category for instance, I did not succeed to read from db as well and append to fetch call from API.
    (see: https://github.com/rusuot/industrial_project_all/blob/5a72e2150f10d96b1d746d463185d0fce48d1647/src/Components/Category/Electronics.js#L100) \
-3. Continuous  Availability   Checks:   Implement   automated   checks   to   ensure   product availability is updated regularly, ideally every minute.
+###### 2. Continuous  Availability   Checks:   Implement   automated   checks   to   ensure   product availability is updated regularly, ideally every minute.
 ---> Not done, not having any idea at the moment how to do it, if somebody wants to take a look, please do so.
-5. Automated   Removal:   Remove   unavailable   or   sold-out   products   automatically, displaying a banner message before deletion.
+###### 3. Automated   Removal:   Remove   unavailable   or   sold-out   products   automatically, displaying a banner message before deletion.
 ---> Not done, same as 3.
-7. Manual Import: Allow users to manually import individual products outside the bulk import process.
+###### 4. Manual Import: Allow users to manually import individual products outside the bulk import process.
 So this is done, considering point 1.
-9. Scalability:   Design   the   platform   to   be   scalable,   accommodating   products   from additional companies or partners.6. User   Interface:   Develop   an   intuitive   and   user-friendly   interface   for   seamless navigation and interaction
+###### 5.Scalability:   Design   the   platform   to   be   scalable,   accommodating   products   from additional companies or partners.6. User   Interface:   Develop   an   intuitive   and   user-friendly   interface   for   seamless navigation and interaction
 ---> In here I think we are fine.
 
 !!! Firebase hosting is not yet done, but we will do it, once the project is in final version (if you'll agree with this, of course).
