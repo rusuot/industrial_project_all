@@ -1,9 +1,11 @@
 ### Industrial Project 
 
 ### Firebase credentials:
-Please check - [Google Firebase](https://firebase.google.com/) and create a DB (I have uploaded my DB credentials, not sure if you'll succeed with mines)
+##### Please check - [Google Firebase](https://firebase.google.com/) and create a DB (I have uploaded my DB credentials, not sure if you'll succeed with mines)
 & update in Firebase.js file.
-Please check collections names:
+
+
+###### Please check collections names:
 I think for Manual Import in code I've put:
 const productRef = doc(db, 'Testing', JSON.parse(Manualimport).id);
 And we need "products", but I've done so only for testing, please ask if something is not clear.
@@ -15,7 +17,15 @@ At the moment I have in my DB next:
 
 So, we can work further with "Users" & "products"
 
+
 ### How to run the project:
+1. Download zip file
+2. Create Firebase DB and get detials needed.
+3. I have a hidden file that I was not able to upload on GIT but:
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/f7702363-db4e-4fe7-b8bd-f03e302c3150)
+
+
+
 Start project with: 
 <ul>
 <li>npm install</li>
