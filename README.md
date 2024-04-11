@@ -15,15 +15,21 @@ At the moment I have in my DB next:
 - products collection (done by POST API with [project CRUD API run.](https://github.com/rusuot/industrial_project_crud_api_firebase))
 - Testing collection (when testing the Manual Import)
 
-So, we can work further with "Users" & "products"
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/5aa8ffa5-5bbe-4bc0-951e-7e27af2f9b87)
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/460f92f4-9aa9-44d0-a0c9-26bbfa9203d5)
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/30dac247-0c85-4566-9a53-cbd1d6d38e6a)
+
+
+
+(!!!)So, we can work further with "Users" & "products"
 
 
 ### How to run the project:
 1. Download zip file
 2. Create Firebase DB and get detials needed.
-3. I have a hidden file that I was not able to upload on GIT but:
-![image](https://github.com/rusuot/industrial_project_all/assets/156461904/f7702363-db4e-4fe7-b8bd-f03e302c3150)
+3. I have a hidden file that I was not able to upload on GIT but please check it in image below:
 
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/ecd8430b-4d03-4958-a309-5330ee016fb2)
 
 
 Start project with: 
