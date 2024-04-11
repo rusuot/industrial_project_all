@@ -13,7 +13,7 @@ At the moment I have in my DB next:
 - products collection (done by POST API with [project CRUD API run.](https://github.com/rusuot/industrial_project_crud_api_firebase))
 - Testing collection (when testing the Manual Import)
 
-We need Usesr to be leted as it is, but we can work further with "products" only.
+So, we can work further with "Users" & "products"
 
 ### How to run the project:
 Start project with: 
@@ -25,7 +25,7 @@ Start project with:
 ### Few things for a high-level arhitecture
 1. We read list of products from a fake API, very similar with Amazon API, and the contents are real.
 2. We can insert in Firebase DB with website project via "Manual Import" or with [project CRUD API run.](https://github.com/rusuot/industrial_project_crud_api_firebase).
-3. 
+3. Once a user pay an order, the order data is saved into DB
 
 
 ### Small Notes:
