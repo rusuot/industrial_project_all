@@ -27,7 +27,7 @@ At the moment I have in my DB next:
 (!!!)So, we can work further with "Users" & "products"
 
 
-### How to run the project:
+# How to run the project:
 1. Download zip file
 2. Create Firebase DB and get detials needed.
 3. I have a hidden file that I was not able to upload on GIT but please check it in image below:
