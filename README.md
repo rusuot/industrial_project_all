@@ -5,6 +5,7 @@ The purpose for this project is Industrial Consulting Project (QHO635) - Solent 
 ### Firebase credentials:
 ##### Please check - [Google Firebase](https://firebase.google.com/) and create a DB (I have uploaded my DB credentials, not sure if you'll succeed with mines)
 & update in Firebase.js file.
+For DB auth please sleect both: Email/password & Google
 
 
 ###### Please check collections names:
