@@ -182,7 +182,7 @@ So this is done, considering point 1.
 
 !!! Firebase hosting is not yet done, but we will do it, once the project is in final version (if you'll agree with this, of course).
 ____________________________________
-### Notes:
+### Notes for team members (guidelines "HOW TO"):
 In order to use directly API AMAZON, I think we need to be very experienced developers, and we are students only, in the final year.
 My proposal with all this work simulate very well the API Amazon, the website is completly functional (any improvements are more than welcomed), and we have the Manual Import. 
 For bulk maybe is just a small think to be done, not sure if I'll have time for it.
