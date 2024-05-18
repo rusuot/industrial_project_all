@@ -2,29 +2,7 @@
 The purpose for this project is Industrial Consulting Project (QHO635) - Solent University.
 
 
-### Firebase credentials:
-##### Please check - [Google Firebase](https://firebase.google.com/) and create a DB (I have uploaded my DB credentials, not sure if you'll succeed with mines)
-& update in Firebase.js file.
-For DB auth please sleect both: Email/password & Google
 
-
-###### Please check collections names:
-I think for "Manual Import", in code I've put: \
-const productRef = doc(db, 'Testing', JSON.parse(Manualimport).id); \
-And we need "products", but I've done so only for testing, please ask if something is not clear. 
-
-At the moment I have in my DB next:
-- Users collection (done by website running - user orders payed)
-- products collection (done by POST API with [project CRUD API run.](https://github.com/rusuot/industrial_project_crud_api_firebase))
-- Testing collection (when testing the Manual Import)
-
-![image](https://github.com/rusuot/industrial_project_all/assets/156461904/5aa8ffa5-5bbe-4bc0-951e-7e27af2f9b87)
-![image](https://github.com/rusuot/industrial_project_all/assets/156461904/460f92f4-9aa9-44d0-a0c9-26bbfa9203d5)
-![image](https://github.com/rusuot/industrial_project_all/assets/156461904/30dac247-0c85-4566-9a53-cbd1d6d38e6a)
-
-
-
-(!!!)So, we can work further with "Users" & "products"
 
 ## Link to hosted web-app (only my part, not the entire final project): 
 - https://amzn2-7f8b1.web.app/
@@ -204,13 +182,33 @@ So this is done, considering point 1.
 ---> In here I think we are fine.
 
 !!! Firebase hosting is not yet done, but we will do it, once the project is in final version (if you'll agree with this, of course).
-
+____________________________________
 ### Notes:
 In order to use directly API AMAZON, I think we need to be very experienced developers, and we are students only, in the final year.
 My proposal with all this work simulate very well the API Amazon, the website is completly functional (any improvements are more than welcomed), and we have the Manual Import. 
 For bulk maybe is just a small think to be done, not sure if I'll have time for it.
 
+### Firebase credentials:
+##### Please check - [Google Firebase](https://firebase.google.com/) and create a DB (I have uploaded my DB credentials, not sure if you'll succeed with mines)
+& update in Firebase.js file.
+For DB auth please sleect both: Email/password & Google
 
+
+###### Please check collections names:
+I think for "Manual Import", in code I've put: \
+const productRef = doc(db, 'Testing', JSON.parse(Manualimport).id); \
+And we need "products", but I've done so only for testing, please ask if something is not clear. 
+
+At the moment I have in my DB next:
+- Users collection (done by website running - user orders payed)
+- products collection (done by POST API with [project CRUD API run.](https://github.com/rusuot/industrial_project_crud_api_firebase))
+- Testing collection (when testing the Manual Import)
+
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/5aa8ffa5-5bbe-4bc0-951e-7e27af2f9b87)
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/460f92f4-9aa9-44d0-a0c9-26bbfa9203d5)
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/30dac247-0c85-4566-9a53-cbd1d6d38e6a)
+
+(!!!)So, we can work further with "Users" & "products"
 
 
 
