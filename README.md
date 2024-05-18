@@ -116,6 +116,68 @@ service cloud.firestore {
 ```
 > Note: `This Firebase db creation must be followed if my values does not work, I'll try to keep them saved in GIT. /or if you choosed to use your personal ones` 
 
+## Firebase Hosting
+1. In Firebase website, in left pane, under Project shortcuts, select "Hosting" and click on "Get started".
+2. Firebase Hosting provides next commands to be run in Visual Code terminal:
+```sh
+npm install -g firebase-tools
+```
+```sh
+firebase login
+```
+For firebase init, select Hosting option and select the existing project created in Firebase.
+```sh
+firebase init
+```
+
+
+
+```sh
+npm run build:deploy
+```
+In Visual Code terminal, Firebase init logs looks like:
+```sh
+=== Deploying to 'contemporary-web-app-6f54f'...
+
+i  deploying hosting
+i  hosting[contemporary-web-app-6f54f]: beginning deploy...
+i  hosting[contemporary-web-app-6f54f]: found 7 files in public
++  hosting[contemporary-web-app-6f54f]: file upload complete
+i  hosting[contemporary-web-app-6f54f]: finalizing version...
++  hosting[contemporary-web-app-6f54f]: version finalized
+i  hosting[contemporary-web-app-6f54f]: releasing new version...
++  hosting[contemporary-web-app-6f54f]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/contemporary-web-app-6f54f/overview
+Hosting URL: https://contemporary-web-app-6f54f.web.app
+```
+
+####Notes/troubleshooting from Firebase Hosting:
+
+----
+- Where are Firebase Hosting details for website hosted?:
+I have selected "Go To Console" in Firebase Hosting website, and in:
+https://console.firebase.google.com/project/contemporary-web-app-6f54f/hosting/sites/contemporary-web-app-6f54f
+In left pane, under Projects Shortcuts, in Hosting I have "Mange Site" Dashboard with:
+contemporary-web-app-6f54f.web.app
+contemporary-web-app-6f54f.firebaseapp.com
+----
+
+- Notes:  When I was running firebase deploy command in Visual Code Terminal, when I was asked about folder to be choosed: default is givven: (public) but I've put "build" folder. I for firebase deploy!!!
+As a short hint: have the exactly same content for index.html in both /public and /build folder.
+- Firebase Hosting should run without any issues, as the time expiration is set for the end of february, but I will extend as days go by (there is a limit of 30 days), you should not have any issues even with my Firebase details.
+
+- History of commands in Visual Terminal that might help:
+  - npm run build:deploy
+  - firebase deploy
+  - firebase init
+  - firebase deploy
+---
+
+
+____________________________________________________________________
 
 
 ### Few things for a high-level arhitecture
