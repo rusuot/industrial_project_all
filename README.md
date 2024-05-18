@@ -27,6 +27,15 @@ At the moment I have in my DB next:
 (!!!)So, we can work further with "Users" & "products"
 
 
+
+## Tech
+What I have used for this project:
+- [Visual Code](https://code.visualstudio.com/)
+- [Google Firebase](https://firebase.google.com/)
+- [node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
+- [React](https://react.dev/)
+- [Dillinger](https://dillinger.io/)
+
 # How to run the project:
 1. Download zip file
 2. Create Firebase DB and get detials needed.
@@ -40,6 +49,74 @@ Start project with:
 <li>npm install</li>
 <li>npm start</li>
 </ul>
+
+
+ Firebase 
+Note: this is needed if firebase files are not in unzipped folder / expired, or you choosed to use your personal ones.
+- Create an account into [Firebase](https://console.firebase.google.com/)
+- Into "Your Firebase projects", select "+" sign to "Add project"
+- Register Web application on Firebase.
+From here, you'll have access to firebase configs.
+E.g.:
+
+```sh
+Projet ID:  amzn2-7f8b1
+```
+```sh
+npm install firebase
+```
+And:
+```sh
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAUwcv90QoQSbzUzS7Wp_QSxuaNJ08BftI",
+  authDomain: "amzn2-7f8b1.firebaseapp.com",
+  projectId: "amzn2-7f8b1",
+  storageBucket: "amzn2-7f8b1.appspot.com",
+  messagingSenderId: "651627062839",
+  appId: "1:651627062839:web:59bb367adea786511281b2",
+};
+
+//init firebase app through configs
+initializeApp(firebaseConfig);
+
+const app = initializeApp(firebaseConfig);
+
+//declare db which gets Firestore
+const db = getFirestore();
+
+//declare auth which gets the AUTH
+const auth = getAuth();
+
+//use timestamp
+const timestamp = Timestamp;
+// export db, auth & timestamp to use in app
+export { db, auth, app, timestamp };
+```
+And run:
+```sh
+npm install -g firebase-tools
+```
+From example above: "apiKey" value must be paste it into root folder, in file: .env.dev as REACT_APP_API_KEY value.
+For email & pass auth:
+- create db in web app (still on Firebase) in production mode and change rules "Allow read/write" access to any user signed in to the application
+```sh
+// Set next rules to allow read & write for any user
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.auth != null; }}}
+```
+> Note: `This Firebase db creation must be followed if my values does not work, I'll try to keep them saved in GIT. /or if you choosed to use your personal ones` 
+
+
 
 ### Few things for a high-level arhitecture
 1. We read list of products from a fake API, very similar with Amazon API, and the contents are real.
