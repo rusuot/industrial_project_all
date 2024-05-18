@@ -26,7 +26,9 @@ At the moment I have in my DB next:
 
 (!!!)So, we can work further with "Users" & "products"
 
-
+## Link to hosted web-app (only my part, not the entire final project): 
+- https://amzn2-7f8b1.web.app/
+- https://amzn2-7f8b1.firebaseapp.com/
 
 ## Tech
 What I have used for this project:
@@ -125,52 +127,44 @@ npm install -g firebase-tools
 ```sh
 firebase login
 ```
-For firebase init, select Hosting option and select the existing project created in Firebase.
+Steps to be followed:
 ```sh
-firebase init
-```
-
-
-
-```sh
-npm run build:deploy
+delete .firebase folder
+delete your build folder and build it again by "npm run build"
+Then again initialize your app by "firebase init"
+What do you want to use as your public directory? build // public directly should be build
+Configure as a single-page app (rewrite all URLs to /index.html)? Yes // rewrite rules yes
+Set up automatic builds and deploys with GitHub? (y/N) n // automatic builds no
+File build/index.html already exists. Overwrite? (y/N) n // should not rewrite the index.html most important part
+firebase deploy // you are good to go.
 ```
 In Visual Code terminal, Firebase init logs looks like:
 ```sh
-=== Deploying to 'contemporary-web-app-6f54f'...
+=== Deploying to 'amzn2-7f8b1'...
 
 i  deploying hosting
-i  hosting[contemporary-web-app-6f54f]: beginning deploy...
-i  hosting[contemporary-web-app-6f54f]: found 7 files in public
-+  hosting[contemporary-web-app-6f54f]: file upload complete
-i  hosting[contemporary-web-app-6f54f]: finalizing version...
-+  hosting[contemporary-web-app-6f54f]: version finalized
-i  hosting[contemporary-web-app-6f54f]: releasing new version...
-+  hosting[contemporary-web-app-6f54f]: release complete
+i  hosting[amzn2-7f8b1]: beginning deploy...
+i  hosting[amzn2-7f8b1]: found 33 files in build
++  hosting[amzn2-7f8b1]: file upload complete
+i  hosting[amzn2-7f8b1]: finalizing version...
++  hosting[amzn2-7f8b1]: version finalized
+i  hosting[amzn2-7f8b1]: releasing new version...
++  hosting[amzn2-7f8b1]: release complete
 
-+  Deploy complete!
-
-Project Console: https://console.firebase.google.com/project/contemporary-web-app-6f54f/overview
-Hosting URL: https://contemporary-web-app-6f54f.web.app
+Project Console: https://console.firebase.google.com/project/amzn2-7f8b1/overview
+Hosting URL: https://amzn2-7f8b1.web.app
 ```
 
 ####Notes/troubleshooting from Firebase Hosting:
 
-----
-- Where are Firebase Hosting details for website hosted?:
-I have selected "Go To Console" in Firebase Hosting website, and in:
-https://console.firebase.google.com/project/contemporary-web-app-6f54f/hosting/sites/contemporary-web-app-6f54f
-In left pane, under Projects Shortcuts, in Hosting I have "Mange Site" Dashboard with:
-contemporary-web-app-6f54f.web.app
-contemporary-web-app-6f54f.firebaseapp.com
-----
+
 
 - Notes:  When I was running firebase deploy command in Visual Code Terminal, when I was asked about folder to be choosed: default is givven: (public) but I've put "build" folder. I for firebase deploy!!!
 As a short hint: have the exactly same content for index.html in both /public and /build folder.
 - Firebase Hosting should run without any issues, as the time expiration is set for the end of february, but I will extend as days go by (there is a limit of 30 days), you should not have any issues even with my Firebase details.
 
 - History of commands in Visual Terminal that might help:
-  - npm run build:deploy
+  - npm run build
   - firebase deploy
   - firebase init
   - firebase deploy
