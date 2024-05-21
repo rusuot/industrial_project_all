@@ -18,7 +18,7 @@ What I have used for this project:
 # How to run the project:
 1. Download zip file
 2. Create Firebase DB and get detials needed.
-3. I have a hidden file that I've tried to added on GIT, check it in image below:
+3. (Note!) I have a hidden file that I've tried to added on GIT, check it in image below:
 
 ![image](https://github.com/rusuot/industrial_project_all/assets/156461904/ecd8430b-4d03-4958-a309-5330ee016fb2)
 
