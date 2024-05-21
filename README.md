@@ -23,7 +23,7 @@ What I have used for this project:
 ![image](https://github.com/rusuot/industrial_project_all/assets/156461904/ecd8430b-4d03-4958-a309-5330ee016fb2)
 
 
-Start project with: 
+# Start project with: 
 <ul>
 <li>npm install</li>
 <li>npm start</li>
@@ -32,7 +32,7 @@ Start project with:
 
 
 
-JSON EXAMPLE to be used in Manual Import.
+# JSON EXAMPLE to be used in Manual Import.
 Each time you insert, please change the ID. From 31313 into 31314, and than..31315.. This is required to simulate a unique ID in Firebase Database.
 ```sh
   {
