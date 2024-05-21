@@ -29,7 +29,7 @@ Start project with:
 <li>npm start</li>
 </ul>
 
-
+__________________________________________________________________________________________________________________________________________________________________
  Firebase 
 Note: this is needed if firebase files are not in unzipped folder / expired, or you choosed to use your personal ones.
 - Create an account into [Firebase](https://console.firebase.google.com/)
