@@ -8,7 +8,8 @@ What is currently on this GitHub repo is my part done for the group project.
 - https://amzn2-7f8b1.firebaseapp.com/
 
 ## Link to hosted web-app (Entire Project - Work Group ):
-Entire project code base can be accessed from: https://github.com/rusuot/industrial_project_all_latest_version
+Entire project code base can be accessed from: 
+GIT Hub link Entire Group - All project files - https://github.com/rusuot/industrial_project_all_latest_version
 - https://nexus-ecommerce-d1cc9.web.app/home
 
 ## Tech
