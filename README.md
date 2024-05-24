@@ -3,9 +3,13 @@ The purpose for this project is Industrial Consulting Project (QHO635) - Solent 
 This project is a team work project.
 What is currently on this GitHub repo is my part done for the group project.
 
-## Link to hosted web-app (only my part, not the entire final project): 
+## Link to hosted web-app (only my part - Rusu Ovidiu Tiberiu, not the entire final project): 
 - https://amzn2-7f8b1.web.app/
 - https://amzn2-7f8b1.firebaseapp.com/
+
+## Link to hosted web-app (Entire Project - Work Group ):
+Entire project code base can be accessed from: https://github.com/rusuot/industrial_project_all_latest_version
+- https://nexus-ecommerce-d1cc9.web.app/home
 
 ## Tech
 What I have used for this project:
