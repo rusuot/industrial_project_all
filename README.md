@@ -11,7 +11,9 @@ What is currently on this GitHub repo is my part done for the group project.
 
 ## Link to hosted web-app (Entire Project - Work Group ):
 Entire project code base can be accessed from: 
+
 (Kiros) GIT Hub link Entire Group - All project files - https://github.com/rusuot/industrial_project_all_latest_version
+
 - https://nexus-ecommerce-d1cc9.web.app/home
 
 ## Tech
