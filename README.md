@@ -56,6 +56,17 @@ Each time you insert, please change the ID. From 31313 into 31314, and than..313
     }
   }
 ```
+##### Fake API URLs:
+Filter products – any category FAKE API called URLs:
+
+- https://fakestoreapi.com/products/category/electronics 
+- https://fakestoreapi.com/products/category/men's%20clothing
+- https://fakestoreapi.com/products/category/jewelery
+- https://fakestoreapi.com/products/category/women's%20clothing 
+![image](https://github.com/rusuot/industrial_project_all/assets/156461904/0f665777-8c07-4df7-b2be-b53e8fee0781)
+
+
+
 
 
 __________________________________________________________________________________________________________________________________________________________________
@@ -175,6 +186,11 @@ As a short hint: have the exactly same content for index.html in both /public an
   - firebase init
   - firebase deploy
 ---
+
+
+
+
+
 
 
 ____________________________________________________________________
