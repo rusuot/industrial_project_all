@@ -43,7 +43,7 @@ What I have used for this project:
 # List/Read Manual Imported products
 https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7afb3cb9f4ab30d8/src/Components/Category/ManualImportedProducts.js#L35
 
-# Insert/Save Manual Imported products
+# Insert/Save Manual Imported products (by user)
 https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7afb3cb9f4ab30d8/src/Components/ManualImport.js#L85
 
 
