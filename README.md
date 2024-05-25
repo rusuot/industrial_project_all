@@ -5,7 +5,7 @@ This project is a team work project.
 
 What is currently on this GitHub repo is my part done for the group project.
 
-## Link to hosted web-app (only my part - Rusu Ovidiu Tiberiu, not the entire final project): 
+## Link to hosted web-app (only my part - Ovi, not the entire final project): 
 - https://amzn2-7f8b1.web.app/
 - https://amzn2-7f8b1.firebaseapp.com/
 
