@@ -2,6 +2,7 @@
 The purpose for this project is Industrial Consulting Project (QHO635) - Solent University.
 
 This project is a team work project.
+
 What is currently on this GitHub repo is my part done for the group project.
 
 ## Link to hosted web-app (only my part - Rusu Ovidiu Tiberiu, not the entire final project): 
