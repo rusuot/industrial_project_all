@@ -40,6 +40,13 @@ What I have used for this project:
 
 
 
+# List/Read Manual Imported products
+https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7afb3cb9f4ab30d8/src/Components/Category/ManualImportedProducts.js#L35
+
+# Insert/Save Manual Imported products
+https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7afb3cb9f4ab30d8/src/Components/ManualImport.js#L85
+
+
 # JSON EXAMPLE to be used in Manual Import.
 Each time you insert, please change the ID. From 31313 into 31314, and than..31315.. This is required to simulate a unique ID in Firebase Database.
 ```sh
@@ -56,7 +63,11 @@ Each time you insert, please change the ID. From 31313 into 31314, and than..313
     }
   }
 ```
-##### Fake API URLs:
+
+
+
+
+##### Fake API URLs used:
 Filter products – any category FAKE API called URLs:
 
 - https://fakestoreapi.com/products/category/electronics 
@@ -65,7 +76,8 @@ Filter products – any category FAKE API called URLs:
 - https://fakestoreapi.com/products/category/women's%20clothing 
 ![image](https://github.com/rusuot/industrial_project_all/assets/156461904/0f665777-8c07-4df7-b2be-b53e8fee0781)
 
-
+Example in code: 
+https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7afb3cb9f4ab30d8/src/Components/Category/Electronics.js#L35 
 
 
 
