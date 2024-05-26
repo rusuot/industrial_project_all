@@ -104,7 +104,7 @@ Note: Sometimes GitHub for Fake API is in maintenanance. So, if the website is n
 
 
 __________________________________________________________________________________________________________________________________________________________________
- Firebase 
+# Firebase 
 Note: this is needed if firebase files are not in unzipped folder / expired, or you choosed to use your personal ones.
 - Create an account into [Firebase](https://console.firebase.google.com/)
 - Into "Your Firebase projects", select "+" sign to "Add project"
