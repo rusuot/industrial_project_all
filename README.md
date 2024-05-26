@@ -49,6 +49,9 @@ https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7a
 
 # JSON EXAMPLE to be used in Manual Import.
 Each time you insert, please change the ID. From 31313 into 31314, and than..31315.. This is required to simulate a unique ID in Firebase Database.
+Next JSON format is applicable to:   https://amzn2-7f8b1.web.app/ 
+(so, first project version)
+
 ```sh
   {
     "id": 31313,
