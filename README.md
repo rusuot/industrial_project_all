@@ -67,7 +67,7 @@ Next JSON format is applicable to:   https://amzn2-7f8b1.web.app/
   }
 ```
 
-
+####  JSON EXAMPLE
 _Next JSON format is applicable to:   https://nexus-ecommerce-d1cc9.web.app
 (so, final project version)_
 
@@ -88,7 +88,7 @@ _Next JSON format is applicable to:   https://nexus-ecommerce-d1cc9.web.app
 
 
 
-##### Fake API URLs used:
+# Fake API URLs used:
 Filter products – any category FAKE API called URLs:
 
 - https://fakestoreapi.com/products/category/electronics 
