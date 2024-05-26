@@ -47,7 +47,7 @@ https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7a
 https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7afb3cb9f4ab30d8/src/Components/ManualImport.js#L85
 
 
-# JSON EXAMPLE to be used in Manual Import.
+# JSON EXAMPLE to be used in Manual Import. (**OVI**)
 Each time you insert, please change the ID. From 31313 into 31314, and than..31315.. This is required to simulate a unique ID in Firebase Database.
 Next JSON format is applicable to:   https://amzn2-7f8b1.web.app/ 
 (so, first project version)
@@ -63,6 +63,24 @@ Next JSON format is applicable to:   https://amzn2-7f8b1.web.app/
     "rating": {
       "rate": 4.7,
       "count": 500
+    }
+  }
+```
+
+
+Next JSON format is applicable to:   https://nexus-ecommerce-d1cc9.web.app
+(so, final project version)
+
+```sh
+  {
+    "id": 31313,
+    "title": "Mens Cotton Jacket",
+    "price": {"current_price": 55.99},
+    "category": "men's clothing",
+    "thumbnail": "https://res.cloudinary.com/81fPKdAC_SL1500__q6mm2s.jpg",
+    "reviews": {
+      "total_reviews": 5,
+      "rating": 4.6
     }
   }
 ```
