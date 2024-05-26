@@ -54,7 +54,7 @@ Next JSON format is applicable to:   https://amzn2-7f8b1.web.app/
 
 ```sh
   {
-    "id": 31313,
+    "id": "31313",
     "title": "Mens Cotton Jacket",
     "price": 55.99,
     "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
@@ -73,7 +73,7 @@ _Next JSON format is applicable to:   https://nexus-ecommerce-d1cc9.web.app
 
 ```sh
   {
-    "id": 31313,
+    "id": "31313",
     "title": "Mens Cotton Jacket",
     "price": {"current_price": 55.99},
     "category": "men's clothing",
