@@ -21,7 +21,7 @@ What I have used for this project:
 - [Google Firebase](https://firebase.google.com/)
 - [node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 - [React](https://react.dev/)
-- [Dillinger](https://dillinger.io/)
+- [Dillinger - write readme files](https://dillinger.io/)
 
 # How to run the project:
 1. Download zip file
