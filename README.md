@@ -214,7 +214,7 @@ Hosting URL: https://amzn2-7f8b1.web.app
 As a short hint: have the exactly same content for index.html in both /public and /build folder.
 - Firebase Hosting should run without any issues, as the time expiration is set for the end of february, but I will extend as days go by (there is a limit of 30 days), you should not have any issues even with my Firebase details.
 
-- History of commands in Visual Terminal that might help:
+- History of commands in Visual Terminal that might help (these commands are for hosting!!!):
   - npm run build
   - firebase deploy
   - firebase init
