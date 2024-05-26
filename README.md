@@ -99,7 +99,7 @@ Filter products – any category FAKE API called URLs:
 
 Example in code: 
 https://github.com/rusuot/industrial_project_all/blob/c625a69a31b8d97cddde926f7afb3cb9f4ab30d8/src/Components/Category/Electronics.js#L35 
-
+Note: Sometimes GitHub for Fake API is in maintenanance. So, if the website is not loading them, please check it after 1h or so.
 
 
 __________________________________________________________________________________________________________________________________________________________________
@@ -205,7 +205,7 @@ Project Console: https://console.firebase.google.com/project/amzn2-7f8b1/overvie
 Hosting URL: https://amzn2-7f8b1.web.app
 ```
 
-####Notes/troubleshooting from Firebase Hosting:
+#### Notes/troubleshooting from Firebase Hosting:
 
 
 
