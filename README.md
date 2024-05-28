@@ -1,4 +1,4 @@
-### Industrial Project 2024 (QHO 634)
+### Industrial Project 2024 (QHO 635)
 The purpose for this project is Industrial Consulting Project (QHO635) - Solent University.
 
 This project is a team work project.
